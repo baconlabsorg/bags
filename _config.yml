@@ -142,3 +142,5 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+baseurl: /bags
