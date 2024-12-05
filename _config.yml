@@ -2,7 +2,7 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 6737472579                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -55,10 +55,22 @@ features                                  :
   - title                                 : Who are you going with?
     description                           : Traveling alone can be boring, so add your travel companions and assign them Items as well.
     fontawesome_icon_name                 : user-friends
-
-  - title                                 : And who is travelling the most?
-    description                           : Everyone loves a good challenge. Collect points for each travel and see what Status you can reach.
+    
+  - title                                 : Where is the boring stuff?
+    description                           : Have you ever forgotten about renewing your Passport or a Visa? Now you don't have to anymore.
+    fontawesome_icon_name                 : passport
+    
+  - title                                 : Is it time yet?
+    description                           : Never leave home without the essentials. Set reminders for last-minute items, so you’re always prepared before the big trip.
+    fontawesome_icon_name                 : bell
+    
+  - title                                 : Did anyone say Status Challenge?
+    description                           : Collecting Points and Status Badges belong to traveling like souvenirs and postcards.
     fontawesome_icon_name                 : id-badge
+
+  - title                                 : Anything else?
+    description                           : Keep your packing lists synced across devices, so you can access them from anywhere.
+    fontawesome_icon_name                 : cloud
 
 
 
@@ -73,9 +85,9 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#EED9C4"
+body_background_color                     : "#EBE3DB"
 
-link_color                                : "#D8552B"
+link_color                                : "#C95D39"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -84,8 +96,8 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#D8552B"
-feature_icons_background_color            : "#FFEDD7"
+feature_icons_foreground_color            : "#C95D39"
+feature_icons_background_color            : "#D4B9AC"
 
 social_icons_foreground_color             : "#ffffff"
 social_icons_background_color             : "#28282C"
